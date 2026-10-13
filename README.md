@@ -56,7 +56,73 @@ HTTP Response
 ```
 
 The diagram is intentionally simplified. The route table determines where traffic is routed, while Network ACLs and Security Groups provide traffic filtering at different layers.
+## Screenshots
 
+### VPC and Subnet Configuration
+
+The VPC and subnet configuration used for this networking lab.
+
+![VPC Subnets](docs/screenshots/vpc-subnets.png)
+
+### Route Tables
+
+Route table configuration showing how network traffic is routed.
+
+![Route Tables](docs/screenshots/route-tables.png)
+
+### Security Groups
+
+Security groups configured for the web, application, and database tiers.
+
+![Security Groups](docs/screenshots/security-groups.png)
+
+### Web Security Group — Inbound Rules
+
+Inbound traffic rules for the web tier.
+
+![Web Security Group Inbound Rules](docs/screenshots/web-sg-inbound.png)
+
+### Application Security Group — Inbound Rules
+
+Inbound traffic rules for the application tier.
+
+![Application Security Group Inbound Rules](docs/screenshots/app-sg-inbound.png)
+
+### Application Security Group — Outbound Rules
+
+Outbound traffic rules for the application tier.
+
+![Application Security Group Outbound Rules](docs/screenshots/app-sg-outbound.png)
+
+### Database Security Group — Inbound Rules
+
+Inbound traffic rules for the database tier.
+
+![Database Security Group Inbound Rules](docs/screenshots/db-sg-inbound.png)
+
+### Database Security Group — Outbound Rules
+
+Outbound traffic rules for the database tier.
+
+![Database Security Group Outbound Rules](docs/screenshots/db-sg-outbound.png)
+
+### Running EC2 Instances
+
+EC2 instances used during the networking exercises.
+
+![Running EC2 Instances](docs/screenshots/running-instances.png)
+
+### Successful Connectivity Test
+
+Evidence of a successful network connectivity test.
+
+![Successful Connectivity Test](docs/screenshots/connection-successful.png)
+
+### Connectivity Troubleshooting
+
+Evidence collected while diagnosing a connection failure.
+
+![Connectivity Troubleshooting](docs/screenshots/connection-troubleshooting.png)
 ## AWS Infrastructure
 
 ### VPC
