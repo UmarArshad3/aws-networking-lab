@@ -58,7 +58,7 @@ HTTP Response
 The diagram is intentionally simplified. The route table determines where traffic is routed, while Network ACLs and Security Groups provide traffic filtering at different layers.
 ## Architecture Diagram
 
-![AWS Networking Lab Architecture](docs/screenshots/aws-networking-architecture.png)
+![AWS Networking Lab Architecture](docs/screenshots/was-networking-lab-architecture.drawio.png)
 
 
 ## Screenshots
